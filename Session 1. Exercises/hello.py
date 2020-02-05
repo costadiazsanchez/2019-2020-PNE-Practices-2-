@@ -1,4 +1,4 @@
-print ('hello, this is the first exercise')
-print ("Hello world!")
+print('hello, this is the first exercise')
+print("Hello world!")
 
-print ("Print added!")
+print("Print added!")

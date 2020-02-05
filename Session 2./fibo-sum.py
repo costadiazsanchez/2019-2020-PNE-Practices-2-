@@ -1,4 +1,4 @@
-def fibosum (n):
+def fibosum(n):
     x = 0
     y = 1
     sum = 0
@@ -9,6 +9,8 @@ def fibosum (n):
         y = aux
         count = count + 1
         sum = sum + x
-    return (sum)
-print ("Sum of the First 5 terms of the Fibonacci series: ", fibosum (5))
-print ("Sum of the First 10 terms of the Fibonacci series: ", fibosum (10))
+    return sum
+
+
+print("Sum of the First 5 terms of the Fibonacci series: ", fibosum(5))
+print("Sum of the First 10 terms of the Fibonacci series: ", fibosum(10))
