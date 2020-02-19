@@ -1,6 +1,6 @@
 from Seq1 import Seq
 
-print("----Exercise 6----")
+print("----Exercise 7----")
 bases = ["A", "C", "G", "T"]
 
 s1 = Seq("")
