@@ -1,7 +1,7 @@
 from Seq1 import Seq
 
-s2 = Seq("ACCTGC")
 s1 = Seq("")
+s2 = Seq("ACTGA")
 s3 = Seq("Invalid sequence")
 
 print("Sequence 1: ", s1)
