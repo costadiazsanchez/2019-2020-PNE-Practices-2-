@@ -7,8 +7,11 @@ bases = ["A", "C", "G", "T"]
 
 for i in genes:
     seq = seq_read_fasta(FOLDER+i+ext)
-
     dict = seq_count(seq)
-    list = [val for val in dict.values()]
-    maximum = max(list)
-    print("Gene", i, ': Most frequent base:', bases[list.index(maximum)])
+    best = ''
+    maximum = 0
+    for x, val in dict.items():
+        while val > maximum:
+            maximum = val
+            best = x
+    print("Gene", i, ': Most frequent base:', best)
